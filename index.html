@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculate a weight of an object on a planet</h1>
+    <div class="container">
+      <div class="selectors">
+        <input  type="number" id="weight" placeholder="Mass in Kilogram" />
+        <select name="planets" id="planets">
+          <option value="selectplanet">--select planet--</option>
+          <option value="mercury">MERCURY</option>
+          <option value="venus">VENUS</option>
+          <option value="earth">EARTH</option>
+          <option value="moon">MOON</option>
+          <option value="mars">MARS</option>
+          <option value="jupiter">JUPITER</option>
+          <option value="saturn">SATURN</option>
+          <option value="uranus">URANUS</option>
+          <option value="neptune">NEPTUNE</option>
+          <option value="pluto">PLUTO</option>
+        </select>
+        <button class="calculateBtn"  type="button">Calculate weight</button>
+      </div>
+    </div>
+    <!--Default-->
+    <div class="cardDefault" style="display: none" >
+      <img
+        class="Default"
+        src="/new project/png/earth.png"
+        height="600"
+        width="600"
+      />
+    </div>
+    <!--cardMercury-->
+    <div class="cardMercury" style="display: none" >
+      <img src="/new project/png/mercury.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Mercury</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForMercury">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardVenus-->
+    <div class="cardVenus" style="display: none">
+      <img src="/new project/png/venüs.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Venus</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForVenus">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardEarth-->
+    <div class="cardEarth" style="display: none">
+      <img src="/new project/png/earth.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Earth</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForEarth">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardMoon-->
+    <div class="cardMoon" style="display: none">
+      <img src="/new project/png/moon.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Moon</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForMoon">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardMars-->
+    <div class="cardMars" style="display: none">
+      <img src="/new project/png/mars.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Mars</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForMars">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardJupiter-->
+    <div class="cardJupiter" style="display: none">
+      <img src="/new project/png/Jupiter.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Jupiter</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForJupiter">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardSaturn-->
+    <div class="cardSaturn" style="display: none">
+      <img src="/new project/png/saturn.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Saturn</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForSaturn">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardUranus-->
+    <div class="cardUranus" style="display: none">
+      <img src="/new project/png/uranüs.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Uranus</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForUranus">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardNeptune-->
+    <div class="cardNeptune" style="display: none">
+      <img src="/new project/png/neptüne.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Neptune</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForNeptune">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+    <!--cardPluto-->
+    <div class="cardPluto" style="display: none">
+      <img src="/new project/png/pluto1.png" height="600" width="600" />
+      <div class="calculation">
+        <h3>The weight of the object on <strong>Pluto</strong></h3>
+        <div id="circle">
+          <p class="valueText"><span class="resultForPluto">0.00</span> kg</p>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <script src="app.js"></script>
+  </body>
+</html>

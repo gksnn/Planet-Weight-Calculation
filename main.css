@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");
+  display: grid;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+  margin: 50px auto;
+  font-size: 50px;
+}
+
+#weight {
+  padding: 10px;
+  width: 18rem;
+}
+
+#planets {
+  padding: 10px;
+  outline: none;
+  width: 10rem;
+}
+.calculateBtn {
+  padding: 10px;
+  outline: none;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.cardDefault {
+  margin: 20px auto;
+  background-color: rgb(100, 100, 100);
+  opacity: 0.5;
+  width: 70rem;
+  height: 38rem;
+  display: flex;
+}
+
+.Default {
+  opacity: 100%;
+  margin: auto;
+}
+
+.cardMercury,
+.cardEarth,
+.cardVenus,
+.cardMoon,
+.cardMars,
+.cardJupiter,
+.cardSaturn,
+.cardUranus,
+.cardNeptune,
+.cardPluto {
+  margin: 20px auto;
+  background-color: rgb(100, 100, 100);
+  opacity: 0.5;
+  width: 70rem;
+  height: 38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculation {
+  background: rgb(64, 63, 63);
+  width: 28rem;
+  height: 12rem;
+  margin: 12rem auto;
+  display: grid;
+}
+
+h3 {
+  margin: 30px auto;
+  color: white;
+}
+
+#circle {
+  background: rgb(44, 43, 43);
+  height: 7rem;
+  width: 7rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  bottom: 1rem;
+}
+
+.valueText {
+  position: relative;
+  left: 1.2rem;
+  top: 2.5rem;
+  font-size: 29px;
+  color: white;
+}
+
+strong {
+  font-size: 25px;
+  color: aqua;
+}
+
+
+.error{
+  margin: 20px auto;
+  width: 70rem;
+  height: 10rem;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.errorMessage{
+  background-color: rgb(66, 65, 65);
+  margin: 10px auto;
+  height: 5rem;
+  width: 60rem;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 50px;
+  color:red;
+}
